@@ -1,0 +1,11 @@
+= bot-router
+
+A unified node.js server which can accept bot updates for several bots and reroutes them to different urls.
+
+You can deploy it with a single click to heroku.
+
+I mostly use it for SSL termination.
+
+== Usage
+
+An update recieved from telegram on the url https://your-addr.herokuapps.com/domain[/optional/url]/port will be forwarded to http://domain:port/[optional/url].
